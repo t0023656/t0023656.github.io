@@ -10,23 +10,70 @@
   </head>
   <body>
     <header class="header">
-      <label
-        for="header__title-checkbox"
-        class="header__title header__title--anim"
-        >許嘉文 - HSU CHIA WEN</label
-      >
-      <input
-        type="checkbox"
-        class="header__title-checkbox"
-        id="header__title-checkbox"
-      />
+      <div class="nav-box">
+        <label for="title-checkbox" class="nav__title nav__title--anim">
+          許嘉文 - HSU CHIA WEN
+        </label>
+        <nav class="nav__items">
+          <a href="#web">web</a>
+          <a href="#">game</a>
+          <a href="#">photo</a>
+        </nav>
+      </div>
+      <input type="checkbox" class="title-checkbox" id="title-checkbox" />
       <div class="header__content header__content--hidden">Hi, 您好！</div>
-      <nav class="header__nav">
-        <li>web</li>
-        <li>game</li>
-        <li>photo</li>
-      </nav>
     </header>
+
+    <section class="web" id="web">
+      <div class="web__cards-box">
+        <div class="card">
+          <h2 class="card-title">web1</h2>
+          <div class="card__img-box">
+            <img
+              src="https://images.unsplash.com/photo-1576300599705-c53f9f59f4da?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=582&q=80"
+              class="card-image card-image--position1"
+              alt="web1-name"
+            />
+          </div>
+
+          <p class="card-context">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia
+            at dignissimos aliquid amet cupiditate consequuntur provident rem
+            voluptates, animi iure.
+          </p>
+        </div>
+        <div class="card">
+          <h2 class="card-title">web2</h2>
+          <div class="card__img-box">
+            <img
+              src="https://images.unsplash.com/photo-1493612276216-ee3925520721?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+              class="card-image card-image--position2"
+              alt="web2-name"
+            />
+          </div>
+          <p class="card-context">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
+            ratione iste est quod eum magni atque delectus sapiente minus unde?
+          </p>
+        </div>
+        <div class="card">
+          <h2 class="card-title">web3</h2>
+          <div class="card__img-box">
+            <img
+              src="https://images.unsplash.com/photo-1514805081229-07bc65454fd6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1700&q=80"
+              class="card-image card-image--position3"
+              alt="web3-name"
+            />
+          </div>
+          <p class="card-context">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat
+            natus officiis illum similique repudiandae soluta libero odio quam
+            sunt ipsa.
+          </p>
+        </div>
+      </div>
+    </section>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="js/main.js"></script>
   </body>
